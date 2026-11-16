@@ -1,25 +1,26 @@
 # Noir Wolf Cut — Customizable Player Models
 
-This repository is for the Minecraft character **Noir** with a 3D wolf-cut hairstyle.
+Character **Noir**, a Minecraft 3D model with layered Wolf Cut hair, for Customizable Player Models (CPM).
 
-## Project files
+## Files
 
-- `Noir_WolfCut.cpmproject` — editable CPM project, **not yet uploaded**.
-- The project was converted from Blockbench; its Minecraft/CPM compatibility has not been fully tested.
+- [Noir_WolfCut_CPM_Facing_Fixed.cpmproject](Noir_WolfCut_CPM_Facing_Fixed.cpmproject) — editable CPM project (148,487 bytes).
+- [Download the CPM project directly](https://raw.githubusercontent.com/oleksenkosergej371-jpg/cpm/main/Noir_WolfCut_CPM_Facing_Fixed.cpmproject).
 
-## Add the project file
+## Open in Minecraft
 
-1. Open [Upload files](https://github.com/oleksenkosergej371-jpg/cpm/upload/main).
-2. Drag `Noir_WolfCut.cpmproject` from the downloaded ChatGPT archive into the uploader.
-3. Choose **Commit changes**.
-4. Verify the file appears in the repository.
+1. Install compatible versions of Minecraft, Fabric, and Customizable Player Models (CPM).
+2. Open **CPM editor → File → Load project**.
+3. Load `Noir_WolfCut_CPM_Facing_Fixed.cpmproject`.
+4. Check the character's front/back orientation, hair, UV textures and animations.
+5. Export from the CPM editor to an in-game format.
 
-## Use in Minecraft / on a server
+## Multiplayer
 
-1. Open the CPM editor and load the `.cpmproject`.
-2. Check orientation, textures and animations.
-3. Export the model in CPM. For local/server CPM support use the exported `.cpmmodel` as appropriate.
-4. For servers without CPM support, use CPM's export-to-skin/external-model-data workflow. A GitHub URL pointing only to `.cpmproject` is **not** a game-loadable model URL.
-5. Players need compatible CPM rendering to see 3D features.
+The file in this repository is the **editable source project**. A GitHub raw URL pointing at `.cpmproject` is **not by itself a directly usable multiplayer model**.
 
-> Note: The converted source model needs an in-game verification before treating it as a working multiplayer model.
+- With supported server/client CPM setup, use the properly exported model (`.cpmmodel`) and the model selection workflow.
+- On servers without CPM support, use the CPM-supported skin/export workflow and verify what other players can see.
+- Do not assume the in-game export or multiplayer compatibility has been tested just because the file is published.
+
+**Status:** Project file is uploaded to GitHub. In-game export and multiplayer behavior still require testing in CPM.
